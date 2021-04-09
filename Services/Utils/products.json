@@ -1,0 +1,22 @@
+[{
+    "name": "Priya Rice Bag (20 kg)",
+    "barcode": 34898998,
+    "brand": "Priya",
+    "description": "Priya Rice Bag (20 kg)",
+    "price": 200,
+    "available": true
+}, {
+    "name": "Savan Rice Bag (50 kg)",
+    "barcode": 34786718,
+    "brand": "Savan",
+    "description": "Savan Rice Bag (50 kg)",
+    "price": 400,
+    "available": false
+}, {
+    "name": "Indian Rice Bag (80 kg)",
+    "barcode": 39438478,
+    "brand": "Indian",
+    "description": "Indian Rice Bag (80 kg)",
+    "price": 1000,
+    "available": true
+}]

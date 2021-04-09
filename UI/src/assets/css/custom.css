@@ -1,0 +1,94 @@
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+.page-wrapper {
+    background: #f3f6ff;
+}
+
+.login-wrapper {
+    min-height: 100vh;
+}
+
+.display-flex {
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+}
+
+.btn-primary,
+.btn-primary:hover {
+    border          : none;
+    background-color: #007bff;
+    box-shadow      : 0 4px 8px 0 rgba(0, 123, 255, .5);
+}
+
+.primary-color {
+    color: #007bff;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+a:hover {
+    cursor         : pointer;
+    text-decoration: none;
+}
+
+.card {
+    box-shadow   : 0 2px 12px rgb(4 8 12 / 16%);
+    border       : none;
+    border-radius: 4px;
+}
+
+.form-control:focus {
+    box-shadow  : none;
+    border-color: #ced4da;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin            : 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+table {
+    background: #fff;
+    box-shadow: 0 2px 12px rgb(4 8 12 / 16%);
+}
+
+.pagination {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.pagination li {
+    padding: 5px 10px;
+}
+
+.pagination li.active {
+    background-color: #007bff;
+    padding         : 7px 14px;
+    color           : #fff;
+}
+
+.navbar {
+    background: #fff;
+    box-shadow: 0 2px 12px rgb(4 8 12 / 16%);
+}
+
+.navbar .title {
+    color: #007bff;
+}
+
+.logout {
+    font-size: 16px;
+}
